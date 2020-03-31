@@ -3,14 +3,15 @@ class Shoe
   attr_reader :brand
   BRAND= [ ]
   
-  def genre=(genre)
-    @genre = genre
+  def brand=(brand)
+    @brand = brand
     GENRES.push(genre)
+    BRAND << brand
   end
   
   def initialize(brand)
     @brand = brand
-    BRAND << brand
+    
   end
 
   def cobble
