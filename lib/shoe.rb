@@ -5,7 +5,6 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    GENRES.push(genre)
     BRAND << brand
   end
   
